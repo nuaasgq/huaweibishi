@@ -14,7 +14,7 @@ int main ()
 {
 	int num;
 	int s[1000], s1[1000];
-	while(cin>>num)
+	while(cin>>num)		//这边需要注意一下，因为有不止一组测试用例，所以需要不断的输入，第一次代码只输入了一次，所以没有通过
 	{
 			int j=0;
 		for(int i = 0; i < num; i++)
